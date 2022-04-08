@@ -1,0 +1,86 @@
+.wrapper {
+    height: 50vh;
+    display: flex;
+    width: 38%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block, .block2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background-color: #FF4500;
+    border-radius: 20%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin: 50px 18px;
+}
+input {
+    width: 70%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+button {
+    width: 100px;
+    height: 20px;
+}
+.buttons {
+    width: 100%;
+    border-radius: 20%;
+    margin-top: 20px;
+    background-color: #66CDAA;
+
+}
+.buttons h2 {
+    text-align: center;
+
+}
+.buttons button {
+    width: 150px;
+    margin-right: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.question {
+    display: flex;
+
+    width: 490px;
+    margin: 20px auto 0;
+}
+.add input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.add {
+    flex-grow: 0;
+    width: 175px;
+}
+.add button {
+    display: block;
+    margin: 0 auto 30px;
+}
+.delete {
+    width: 170px;
+}
+.delete button {
+    margin: 0 auto;
+    display: block;
+}
+.del {
+    width: 175px;
+}
+.del button {
+    display: block;
+    margin: 0 auto 30px;
+}
+.del input {
+    width: 100%;
+}
